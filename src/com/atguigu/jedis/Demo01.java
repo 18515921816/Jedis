@@ -7,6 +7,7 @@ public class Demo01 {
         Jedis jedis = new Jedis("192.168.1.102",6379);
         String pong = jedis.ping();
         System.out.println("连接成功："+pong);
+        System.out.println("master修改");
         jedis.close();
     }
 }
