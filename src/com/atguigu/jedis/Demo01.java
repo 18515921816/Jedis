@@ -8,6 +8,7 @@ public class Demo01 {
         String pong = jedis.ping();
         System.out.println("连接成功："+pong);
         System.out.println("master修改");
+        System.out.println("分支提交");
         jedis.close();
     }
 }
